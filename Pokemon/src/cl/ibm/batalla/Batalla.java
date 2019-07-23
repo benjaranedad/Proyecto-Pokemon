@@ -31,5 +31,10 @@ public class Batalla {
 	public void setPokemon(Pokemon[] pokemon) {
 		this.pokemon = pokemon;
 	}
+	
+	public void luchar() {
+		
+		
+	}
 
 }
