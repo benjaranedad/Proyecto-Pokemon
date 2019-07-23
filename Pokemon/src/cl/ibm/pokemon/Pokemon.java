@@ -1,15 +1,12 @@
 package cl.ibm.pokemon;
 
-
-
 public class Pokemon {
-	
+
 	int energia;
 	String nombre;
 	Tipo tipo;
-	Habilidad [] habilidades;
-	
-	
+	Habilidad[] habilidades;
+
 	public int getEnergia() {
 		return energia;
 	}
@@ -42,10 +39,12 @@ public class Pokemon {
 		this.habilidades = habilidades;
 	}
 
-	
-	 
 	public static void atacar() {
-		
+
+	}
+
+	public static void dañorecivido() {
+
 	}
 
 }
