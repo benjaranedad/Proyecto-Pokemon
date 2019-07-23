@@ -52,7 +52,7 @@ public class Pokemon {
 
 	}
 
-	public static void da�orecivido() {
+	public static void danoRecibido() {
 
 	}
 

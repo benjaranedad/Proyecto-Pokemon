@@ -4,13 +4,13 @@ public class Tipo {
 
 	public String nombre;
 	public String debilidad;
-	public int FactorDaño;
+	public int FactorDano;
 
-	public Tipo(String nombre, String debilidad, int factorDaño) {
+	public Tipo(String nombre, String debilidad, int factorDano) {
 		super();
 		this.nombre = nombre;
 		this.debilidad = debilidad;
-		FactorDaño = factorDaño;
+		FactorDano = factorDano;
 	}
 
 	public String getNombre() {
@@ -29,12 +29,12 @@ public class Tipo {
 		this.debilidad = debilidad;
 	}
 
-	public int getFactorDaño() {
-		return FactorDaño;
+	public int getFactorDano() {
+		return FactorDano;
 	}
 
-	public void setFactorDaño(int factorDaño) {
-		FactorDaño = factorDaño;
+	public void setFactorDano(int factorDano) {
+		FactorDano = factorDano;
 	}
 
 }
