@@ -1,7 +1,5 @@
 package cl.ibm.pokemon;
 
-import cl.ibm.batalla.Batalla;
-
 public class FabricaPokemon{
 		  private static Pokemon caterpie;
 		  private Pokemon squirtle;
