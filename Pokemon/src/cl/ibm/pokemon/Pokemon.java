@@ -10,6 +10,14 @@ public class Pokemon {
 	Habilidad [] habilidades;
 	
 	
+	public Pokemon(int energia, String nombre, Tipo tipo, Habilidad[] habilidades) {
+		super();
+		this.energia = energia;
+		this.nombre = nombre;
+		this.tipo = tipo;
+		this.habilidades = habilidades;
+	}
+
 	public int getEnergia() {
 		return energia;
 	}

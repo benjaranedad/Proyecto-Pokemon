@@ -5,6 +5,8 @@ public class Habilidad {
 	public String nombre_Habilidad;
 
 	public int danno;
+	
+	
 
 	public Habilidad() {
 		super();

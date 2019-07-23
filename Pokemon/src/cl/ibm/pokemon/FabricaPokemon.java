@@ -1,31 +1,39 @@
 package cl.ibm.pokemon;
 
 public class FabricaPokemon{
-		  private static Pokemon caterpie;
-		  private Pokemon squirtle;
-		  private static Pokemon charmander;
+		 
 		  private Tipo hoja;
 		  private Tipo fuego;
 		  private Tipo agua;
+		  private Habilidad placaje;
+		  private Habilidad mordisco;
+		  private Habilidad grunido;
+		  private Habilidad furia;
+		  
 
 		public void FabricarPokemon(){
 			
+			Pokemon caterpie = new Pokemon (100,"caterpie", this.hoja );
 			
-			
-		   caterpie = new Pokemon();
-		   squirtle = new Pokemon();
-		   charmander = new Pokemon();
+
 		   
 		   
 		 }
 		
-		public void FabricarTipo() {
+		private void FabricarTipo() {
 			
-			hoja = new Tipo();
-			fuego = new Tipo();
-			agua = new Tipo();
+			this.hoja = new Tipo();
+			this.fuego = new Tipo();
+			this.agua = new Tipo();
 		}
 
+		private void FabricarHabilidad() {
+			
+			this.placaje = new Habilidad();
+			this.mordisco = new Habilidad();
+			this.grunido = new Habilidad();
+			this.furia = new Habilidad();
+		}
 	
 		}
 

@@ -32,9 +32,6 @@ public class Batalla {
 		this.pokemon = pokemon;
 	}
 	
-	public void luchar() {
-		
-		
-	}
+
 
 }
