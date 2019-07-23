@@ -14,4 +14,4 @@ Para crear un pkmn existirá una fabrica de pokémon donde puede crear un caterp
 
 3. Cada pokemon tendra una serie de habilidades, que estan representadas por la clase Habilidad, donde se pueden apreciar sus caracteristicas, las que involucran el nombre, el daño y un factor de ataque dependiendo del tipo que sea el pokemon rival.
 
-4. Finalmente, tendremos una clase encargada de fabricar los diferentes tipos de pokemon, representada por la clase fabrica pokemon, en esta contaremos con tres metodos, uno para crear un Squirtle, un Charmander y un Caterpy. 
+4. Finalmente, tendremos una clase encargada de fabricar los diferentes tipos de pokemon, representada por la clase Fabrica Pokemon, en esta contaremos con tres metodos, uno para crear un Squirtle, un Charmander y un Caterpy. 
