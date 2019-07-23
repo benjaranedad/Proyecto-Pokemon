@@ -9,14 +9,15 @@ Para crear un pkmn existirá una fabrica de pokémon donde puede crear un caterp
 
 # Propuesta Solución
 ![alt text](https://raw.githubusercontent.com/benjaranedad/Proyecto-Pokemon/master/diagrama_clase.jpg)
-1.- Se propone implementar una clase denominada Pokemon, cuyas caracteristicas seran el nombre, el tipo, la energía y una serie de habilidades. Ademas cada pokemon podrá atacar y recibir daño hacia/desde el oponente.
+1.- Se propone implementar una clase denominada Pokemon, cuyos atributos seran el nombre, el tipo, la energía y una serie de habilidades. Ademas cada pokemon podrá atacar y recibir daño.
+2.- Un pokemon puede ser de un tipo específico, existen 3 Hoja, Agua y Fuego. A su vez, cada tipo tiene una debilidad contra otro tipo de pokemon, por lo tanto si recibe daño de un pokemon rival, del que es debil, se multiplica el daño de acuerdo al factor de daño especificado en la clase Tipo.
+3.- Cada pokemon tendra una serie de habilidades, que estan representadas por la clase Habilidad, donde lo que involucra es el nombre de la habilidad y el daño que provoca.
+4.- tendremos una clase encargada de fabricar los diferentes tipos de pokemon, representada por la clase Fabrica Pokemon.
+5.-como predefinido tendremos fabricados a 3 pokemones , Charmander , Caterpie y Squartle , que por medio de una herencia obtendran los atributos de la clase pokemon.
+6.- contaremos con una clase batalla , que sera la encargada de instanciar a 2 pokemones para llevar a cabo un combate, ademas de mostrar el tiempo de combate y turnos de la batalla.
+7.- adyacente a lo anterior incluiremos una clase resultado , para asi mostrar el nombre del ganador de la batalla, el duracion total del combate y energia restante del ganador.
 
-2.- Un pokemon puede ser de un tipo específico, representados por las clases Hoja, Agua y Fuego. A su vez, cada tipo tiene una debilidad contra otro tipo de pokemon, por lo tanto si recibe daño de un pokemon rival, del que presenta debilidad, se multiplicará el daño de acuerdo al factor de daño.
+# experiencias del dia 23/07
+hoy se intento de programar la propuesta realizada el dia de ayer que fue representada con un diagrama de clases , tuvimos que comenzar a trabajar con GitHub para el desarrollo por versiones en conjunto.
+se puso enfasis en que el programa fuera lo mas apegado al diagrama , cosa que no ocurrio , porque tuvimos muchos problemas con el repositorio , tenemos falta de experiencia de trabajo en el lenguaje de JAVA y falta de experiencia con GitHub para el trabajo colaborativo y falta de comunicacion y costumbre al trabajo en equipo.
 
-3.- Cada pokemon tendra una serie de habilidades, que estan representadas por la clase Habilidad, donde se pueden apreciar sus caracteristicas, las que involucran el nombre, el daño y un factor de ataque dependiendo del tipo que sea el pokemon rival.
-
-4.- tendremos una clase encargada de fabricar los diferentes tipos de pokemon, representada por la clase Fabrica Pokemon, en esta contaremos con tres metodos, uno para crear un Squirtle, un Charmander y un Caterpy.
-
-5.- contaremos con una clase batalla , que sera la encargada de instanciar a 2 pokemones para llevar a cabo un combate, ademas de mostrar el tiempo de y turnos de la batalla.
-
-6.- adyacente a lo anterior incluiremos una clase resultado , para asi mostrar el nombre del ganador de la batalla, el duracion total del combate y energia restante del ganador.
