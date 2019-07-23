@@ -1,15 +1,13 @@
 package cl.ibm.pokemon;
 
-
-
 public class Pokemon {
-	
+
 	int energia;
 	String nombre;
 	Tipo tipo;
 	Habilidad [] habilidades;
-	
-	
+
+
 	public Pokemon(int energia, String nombre, Tipo tipo, Habilidad[] habilidades) {
 		super();
 		this.energia = energia;
@@ -50,10 +48,12 @@ public class Pokemon {
 		this.habilidades = habilidades;
 	}
 
-	
-	 
 	public static void atacar() {
-		
+
+	}
+
+	public static void da�orecivido() {
+
 	}
 
 }
