@@ -25,7 +25,11 @@ public class FabricaPokemon{
 			fuego = new Tipo();
 			agua = new Tipo();
 		}
+		
+		
+		
 
+		
 	
 		}
 

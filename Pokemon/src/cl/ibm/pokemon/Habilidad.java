@@ -6,9 +6,10 @@ public class Habilidad {
 
 	public int danno;
 
-	public Habilidad() {
+	public Habilidad(String nombre_Habilidad, int danno) {
 		super();
-
+		this.nombre_Habilidad = nombre_Habilidad;
+		this.danno = danno;
 	}
 
 	public String getNombre_Habilidad() {
@@ -27,7 +28,4 @@ public class Habilidad {
 		this.danno = danno;
 	}
 
-	
-	
-	
 }

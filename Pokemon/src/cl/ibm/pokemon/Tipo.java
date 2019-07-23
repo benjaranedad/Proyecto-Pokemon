@@ -6,9 +6,11 @@ public class Tipo {
 	public String debilidad;
 	public int FactorDaño;
 
-	public Tipo() {
+	public Tipo(String nombre, String debilidad, int factorDaño) {
 		super();
-
+		this.nombre = nombre;
+		this.debilidad = debilidad;
+		FactorDaño = factorDaño;
 	}
 
 	public String getNombre() {
