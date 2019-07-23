@@ -9,10 +9,14 @@ Para crear un pkmn existirá una fabrica de pokémon donde puede crear un caterp
 
 # Propuesta Solución
 ![alt text](https://raw.githubusercontent.com/benjaranedad/Proyecto-Pokemon/master/diagrama_clase.jpg)
-1. Se propone implementar una clase denominada Pokemon, cuyas caracteristicas seran el nombre, el tipo, la energía y una serie de habilidades. Ademas cada pokemon podrá atacar y recibir daño hacia/desde el oponente.
+1.- Se propone implementar una clase denominada Pokemon, cuyas caracteristicas seran el nombre, el tipo, la energía y una serie de habilidades. Ademas cada pokemon podrá atacar y recibir daño hacia/desde el oponente.
 
-2. Un pokemon puede ser de un tipo específico, representados por las clases Hoja, Agua y Fuego. A su vez, cada tipo tiene una debilidad contra otro tipo de pokemon, por lo tanto si recibe daño de un pokemon rival, del que presenta debilidad, se multiplicará el daño de acuerdo al factor de daño.
+2.- Un pokemon puede ser de un tipo específico, representados por las clases Hoja, Agua y Fuego. A su vez, cada tipo tiene una debilidad contra otro tipo de pokemon, por lo tanto si recibe daño de un pokemon rival, del que presenta debilidad, se multiplicará el daño de acuerdo al factor de daño.
 
-3. Cada pokemon tendra una serie de habilidades, que estan representadas por la clase Habilidad, donde se pueden apreciar sus caracteristicas, las que involucran el nombre, el daño y un factor de ataque dependiendo del tipo que sea el pokemon rival.
+3.- Cada pokemon tendra una serie de habilidades, que estan representadas por la clase Habilidad, donde se pueden apreciar sus caracteristicas, las que involucran el nombre, el daño y un factor de ataque dependiendo del tipo que sea el pokemon rival.
 
-4. Finalmente, tendremos una clase encargada de fabricar los diferentes tipos de pokemon, representada por la clase Fabrica Pokemon, en esta contaremos con tres metodos, uno para crear un Squirtle, un Charmander y un Caterpy. 
+4.- tendremos una clase encargada de fabricar los diferentes tipos de pokemon, representada por la clase Fabrica Pokemon, en esta contaremos con tres metodos, uno para crear un Squirtle, un Charmander y un Caterpy.
+
+5.- contaremos con una clase batalla , que sera la encargada de instanciar a 2 pokemones para llevar a cabo un combate, ademas de mostrar el tiempo de y turnos de la batalla.
+
+6.- adyacente a lo anterior incluiremos una clase resultado , para asi mostrar el nombre del ganador de la batalla, el duracion total del combate y energia restante del ganador.
