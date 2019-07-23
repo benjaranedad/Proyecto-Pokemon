@@ -7,7 +7,7 @@ Un pkmn comienza con el 100% de energía y puede disminuir según el daño recib
 Un pkmn puede atacar, donde el ataque varia su daño según el tipo del pkmn enemigo y la habilidad utilizada, ejemplo si la habilidad es "Placaje", el daño para tipo hoja puede ser 5, para agua puede ser 5 y para fuego puede ser 10.
 Para crear un pkmn existirá una fabrica de pokémon donde puede crear un caterpy, un squartle y un charmander.
 
-# Solución propuesta
+# Propuesta Solución
 ![alt text](https://raw.githubusercontent.com/benjaranedad/Proyecto-Pokemon/master/diagrama_clase.jpg)
 1. Se propone implementar una clase denominada Pokemon, cuyas caracteristicas seran el nombre, el tipo, la energía y una serie de habilidades. Ademas cada pokemon podrá atacar y recibir daño hacia/desde el oponente.
 
